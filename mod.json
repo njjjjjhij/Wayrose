@@ -1,0 +1,129 @@
+{
+  "geode": "v5.11.2",
+  "gd": {
+    "win": "2.2081",
+    "android": "2.2081"
+  },
+  "id": "cClydestales.gui",
+  "name": "cClydestales GUI",
+  "version": "v1.0.0",
+  "developer": "cClydestales",
+  "description": "A clean, purple, loveable click GUI with 20 configurable toggles.",
+  "repository": "",
+  "tags": [
+    "interface",
+    "utility",
+    "gameplay",
+    "customization"
+  ],
+  "resources": {
+    "sprites": [
+      "resources/icon.png",
+      "resources/click-icon.png"
+    ]
+  },
+  "settings": {
+    "cbf": {
+      "name": "CBF",
+      "description": "Toggle for the CBF input option. Gameplay behavior is not implemented in this starter.",
+      "type": "bool",
+      "default": false
+    },
+    "hack-cbf": {
+      "name": "Hack CBF",
+      "description": "Requires the access code when enabling. Gameplay behavior is not implemented in this starter.",
+      "type": "bool",
+      "default": false
+    },
+    "show-fps": {
+      "name": "FPS Display",
+      "type": "bool",
+      "default": false
+    },
+    "practice-music": {
+      "name": "Practice Music Sync",
+      "type": "bool",
+      "default": false
+    },
+    "auto-retry": {
+      "name": "Auto Retry",
+      "type": "bool",
+      "default": false
+    },
+    "fast-transitions": {
+      "name": "Fast Transitions",
+      "type": "bool",
+      "default": false
+    },
+    "hitbox-view": {
+      "name": "Hitbox View",
+      "type": "bool",
+      "default": false
+    },
+    "rainbow-icons": {
+      "name": "Rainbow Icons",
+      "type": "bool",
+      "default": false
+    },
+    "trail-toggle": {
+      "name": "Trail Toggle",
+      "type": "bool",
+      "default": false
+    },
+    "wave-trail": {
+      "name": "Wave Trail",
+      "type": "bool",
+      "default": false
+    },
+    "screen-shake": {
+      "name": "Screen Shake",
+      "type": "bool",
+      "default": false
+    },
+    "low-detail": {
+      "name": "Low Detail Mode",
+      "type": "bool",
+      "default": false
+    },
+    "hide-particles": {
+      "name": "Hide Particles",
+      "type": "bool",
+      "default": false
+    },
+    "hide-death-effects": {
+      "name": "Hide Death Effects",
+      "type": "bool",
+      "default": false
+    },
+    "attempt-counter": {
+      "name": "Attempt Counter",
+      "type": "bool",
+      "default": false
+    },
+    "speed-control": {
+      "name": "Speed Control",
+      "type": "bool",
+      "default": false
+    },
+    "pause-focus-loss": {
+      "name": "Pause on Focus Loss",
+      "type": "bool",
+      "default": false
+    },
+    "quick-exit": {
+      "name": "Quick Exit",
+      "type": "bool",
+      "default": false
+    },
+    "accent-color": {
+      "name": "Custom Accent Color",
+      "type": "bool",
+      "default": false
+    },
+    "compact-gui": {
+      "name": "Compact GUI",
+      "type": "bool",
+      "default": false
+    }
+  }
+}
