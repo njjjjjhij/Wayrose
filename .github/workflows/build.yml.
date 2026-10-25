@@ -1,0 +1,31 @@
+name: Build cClydestales GUI
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    name: Build Geode Mod
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install Geode SDK
+        uses: geode-sdk/build-geode-mod@main
+        with:
+          sdk: "5.11.2"
+
+      - name: Build mod
+        run: geode build
+
+      - name: Upload Geode artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: cClydestales-GUI
+          path: "**/*.geode"
+          if-no-files-found: error
